@@ -1,0 +1,11 @@
+{
+ "entiteitnummer": "1",
+ "entiteitcode": "A",
+ "omschrijving": "Antwerpen",
+ "links": [
+  {
+   "rel": "self",
+   "url": "https://api.delijn.be/DLKernOpenData/api/v1/entiteiten/1"
+  }
+ ]
+}

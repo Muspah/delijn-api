@@ -1,0 +1,38 @@
+{
+ "gemeenten": [
+  {
+   "gemeentenummer": 1002,
+   "omschrijving": "BEVEREN-WAAS",
+   "links": [
+    {
+     "rel": "detail",
+     "url": "https://api.delijn.be/DLKernOpenData/api/v1/gemeenten/1002"
+    },
+    {
+     "rel": "haltes",
+     "url": "https://api.delijn.be/DLKernOpenData/api/v1/gemeenten/1002/haltes"
+    }
+   ]
+  },
+  {
+   "gemeentenummer": 1015,
+   "omschrijving": "SINT-GILLIS-WAAS",
+   "links": [
+    {
+     "rel": "detail",
+     "url": "https://api.delijn.be/DLKernOpenData/api/v1/gemeenten/1015"
+    },
+    {
+     "rel": "haltes",
+     "url": "https://api.delijn.be/DLKernOpenData/api/v1/gemeenten/1015/haltes"
+    }
+   ]
+  }
+ ],
+ "links": [
+  {
+   "rel": "self",
+   "url": "https://api.delijn.be/DLKernOpenData/api/v1/entiteiten/2/gemeenten"
+  }
+ ]
+}

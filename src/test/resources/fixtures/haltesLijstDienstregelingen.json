@@ -1,0 +1,122 @@
+{
+ "halteDoorkomstenLijst": [
+  {
+   "halteDoorkomsten": [
+    {
+     "haltenummer": "204911",
+     "doorkomsten": [
+      {
+       "doorkomstId": "2026-10-11_2004_10_16_204911",
+       "entiteitnummer": "2",
+       "lijnnummer": 4,
+       "richting": "TERUG",
+       "ritnummer": "10",
+       "bestemming": "Sint-Denijs-Westrem Flanders Expo",
+       "plaatsBestemming": "Sint-Denijs-Westrem Flanders Expo",
+       "vias": [],
+       "bestemmingKort": "Flanders Expo",
+       "dienstregelingTijdstip": "2026-10-11T05:34:00",
+       "links": [
+        {
+         "rel": "halte",
+         "url": "https://api.delijn.be/DLKernOpenData/api/v1/haltes/2/204911"
+        },
+        {
+         "rel": "lijnrichting",
+         "url": "https://api.delijn.be/DLKernOpenData/api/v1/lijnen/2/4/lijnrichtingen/TERUG"
+        }
+       ]
+      },
+      {
+       "doorkomstId": "2026-10-11_2004_14_16_204911",
+       "entiteitnummer": "2",
+       "lijnnummer": 4,
+       "richting": "TERUG",
+       "ritnummer": "14",
+       "bestemming": "Sint-Denijs-Westrem Flanders Expo",
+       "plaatsBestemming": "Sint-Denijs-Westrem Flanders Expo",
+       "vias": [],
+       "bestemmingKort": "Flanders Expo",
+       "dienstregelingTijdstip": "2026-10-11T05:52:00",
+       "links": [
+        {
+         "rel": "halte",
+         "url": "https://api.delijn.be/DLKernOpenData/api/v1/haltes/2/204911"
+        },
+        {
+         "rel": "lijnrichting",
+         "url": "https://api.delijn.be/DLKernOpenData/api/v1/lijnen/2/4/lijnrichtingen/TERUG"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "doorkomstNotas": [],
+   "ritNotas": [],
+   "omleidingen": []
+  },
+  {
+   "halteDoorkomsten": [
+    {
+     "haltenummer": "205914",
+     "doorkomsten": [
+      {
+       "doorkomstId": "2026-10-11_2500_21_1_205914",
+       "entiteitnummer": "2",
+       "lijnnummer": 500,
+       "richting": "HEEN",
+       "ritnummer": "21",
+       "bestemming": "Brugge Station",
+       "plaatsBestemming": "Brugge Station",
+       "vias": [],
+       "bestemmingKort": "Brugge Station",
+       "dienstregelingTijdstip": "2026-10-11T06:24:00",
+       "links": [
+        {
+         "rel": "halte",
+         "url": "https://api.delijn.be/DLKernOpenData/api/v1/haltes/2/205914"
+        },
+        {
+         "rel": "lijnrichting",
+         "url": "https://api.delijn.be/DLKernOpenData/api/v1/lijnen/2/500/lijnrichtingen/HEEN"
+        }
+       ]
+      },
+      {
+       "doorkomstId": "2026-10-11_2345_11_1_205914",
+       "entiteitnummer": "2",
+       "lijnnummer": 345,
+       "richting": "HEEN",
+       "ritnummer": "11",
+       "bestemming": "Wetteren Station",
+       "plaatsBestemming": "Wetteren Station",
+       "vias": [],
+       "bestemmingKort": "Wetteren Station",
+       "dienstregelingTijdstip": "2026-10-11T06:30:00",
+       "links": [
+        {
+         "rel": "halte",
+         "url": "https://api.delijn.be/DLKernOpenData/api/v1/haltes/2/205914"
+        },
+        {
+         "rel": "lijnrichting",
+         "url": "https://api.delijn.be/DLKernOpenData/api/v1/lijnen/2/345/lijnrichtingen/HEEN"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "doorkomstNotas": [],
+   "ritNotas": [],
+   "omleidingen": []
+  }
+ ],
+ "links": [
+  {
+   "rel": "self",
+   "url": "https://api.delijn.be/DLKernOpenData/api/v1/haltes/lijst/2_204911_2_205914/dienstregelingen?datum=2026-10-11"
+  }
+ ]
+}

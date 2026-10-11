@@ -1,0 +1,10 @@
+{
+ "gemeentenummer": 1633,
+ "omschrijving": "MERELBEKE",
+ "links": [
+  {
+   "rel": "self",
+   "url": "https://api.delijn.be/DLKernOpenData/api/v1/gemeenten/1633"
+  }
+ ]
+}

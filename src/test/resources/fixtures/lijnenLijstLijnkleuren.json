@@ -1,0 +1,118 @@
+{
+ "lijnLijnkleurCodesijst": [
+  {
+   "lijn": {
+    "entiteitnummer": "2",
+    "lijnnummer": "7",
+    "links": [
+     {
+      "rel": "lijnkleuren",
+      "url": "https://api.delijn.be/DLKernOpenData/api/v1/lijnen/2/7/lijnkleuren"
+     },
+     {
+      "rel": "lijnrichtingen",
+      "url": "https://api.delijn.be/DLKernOpenData/api/v1/lijnen/2/7/lijnrichtingen"
+     }
+    ]
+   },
+   "lijnkleurCodes": {
+    "voorgrond": {
+     "code": "ZW",
+     "links": [
+      {
+       "rel": "detail",
+       "url": "https://api.delijn.be/DLKernOpenData/api/v1/kleuren/ZW"
+      }
+     ]
+    },
+    "achtergrond": {
+     "code": "GE",
+     "links": [
+      {
+       "rel": "detail",
+       "url": "https://api.delijn.be/DLKernOpenData/api/v1/kleuren/GE"
+      }
+     ]
+    },
+    "voorgrondRand": {
+     "code": "WI",
+     "links": [
+      {
+       "rel": "detail",
+       "url": "https://api.delijn.be/DLKernOpenData/api/v1/kleuren/WI"
+      }
+     ]
+    },
+    "achtergrondRand": {
+     "code": "GE",
+     "links": [
+      {
+       "rel": "detail",
+       "url": "https://api.delijn.be/DLKernOpenData/api/v1/kleuren/GE"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "lijn": {
+    "entiteitnummer": "1",
+    "lijnnummer": "1",
+    "links": [
+     {
+      "rel": "lijnkleuren",
+      "url": "https://api.delijn.be/DLKernOpenData/api/v1/lijnen/1/1/lijnkleuren"
+     },
+     {
+      "rel": "lijnrichtingen",
+      "url": "https://api.delijn.be/DLKernOpenData/api/v1/lijnen/1/1/lijnrichtingen"
+     }
+    ]
+   },
+   "lijnkleurCodes": {
+    "voorgrond": {
+     "code": "WI",
+     "links": [
+      {
+       "rel": "detail",
+       "url": "https://api.delijn.be/DLKernOpenData/api/v1/kleuren/WI"
+      }
+     ]
+    },
+    "achtergrond": {
+     "code": "PA",
+     "links": [
+      {
+       "rel": "detail",
+       "url": "https://api.delijn.be/DLKernOpenData/api/v1/kleuren/PA"
+      }
+     ]
+    },
+    "voorgrondRand": {
+     "code": "ZW",
+     "links": [
+      {
+       "rel": "detail",
+       "url": "https://api.delijn.be/DLKernOpenData/api/v1/kleuren/ZW"
+      }
+     ]
+    },
+    "achtergrondRand": {
+     "code": "PA",
+     "links": [
+      {
+       "rel": "detail",
+       "url": "https://api.delijn.be/DLKernOpenData/api/v1/kleuren/PA"
+      }
+     ]
+    }
+   }
+  }
+ ],
+ "links": [
+  {
+   "rel": "self",
+   "url": "https://api.delijn.be/DLKernOpenData/api/v1/lijnen/lijst/2_7_1_1/lijnkleuren"
+  }
+ ]
+}

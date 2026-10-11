@@ -1,0 +1,82 @@
+{
+ "haltes": [
+  {
+   "entiteitnummer": "2",
+   "haltenummer": "200013",
+   "omschrijving": "Van Beverenplein",
+   "omschrijvingLang": "Gent Van Beverenplein",
+   "gemeentenummer": 4612,
+   "omschrijvingGemeente": "Gent",
+   "geoCoordinaat": {
+    "latitude": 51.07252,
+    "longitude": 3.70917
+   },
+   "halteToegankelijkheden": [
+    "MOTORISCHE_BEPERKING",
+    "VISUELE_BEPERKING"
+   ],
+   "hoofdHalte": null,
+   "taal": "NEDERLANDS",
+   "classificatie": "REGULIER",
+   "bedieningsTypes": [
+    "TRAM"
+   ],
+   "plaats": {
+    "plaatsNaam": "Gent Van Beverenplein",
+    "verkortePlaatsNaam": "Van Beverenplein",
+    "geoCoordinaat": {
+     "latitude": 51.072485,
+     "longitude": 3.710556
+    }
+   },
+   "links": [
+    {
+     "rel": "detail",
+     "url": "https://api.delijn.be/DLKernOpenData/api/v1/haltes/2/200013"
+    }
+   ]
+  },
+  {
+   "entiteitnummer": "2",
+   "haltenummer": "200014",
+   "omschrijving": "Hortensiastraat",
+   "omschrijvingLang": "Gent Hortensiastraat",
+   "gemeentenummer": 4612,
+   "omschrijvingGemeente": "Gent",
+   "geoCoordinaat": {
+    "latitude": 51.07033,
+    "longitude": 3.70386
+   },
+   "halteToegankelijkheden": [
+    "MOTORISCHE_BEPERKING",
+    "VISUELE_BEPERKING"
+   ],
+   "hoofdHalte": null,
+   "taal": "NEDERLANDS",
+   "classificatie": "REGULIER",
+   "bedieningsTypes": [
+    "TRAM"
+   ],
+   "plaats": {
+    "plaatsNaam": "Gent Hortensiastraat",
+    "verkortePlaatsNaam": "Hortensiastraat",
+    "geoCoordinaat": {
+     "latitude": 0.0,
+     "longitude": 0.0
+    }
+   },
+   "links": [
+    {
+     "rel": "detail",
+     "url": "https://api.delijn.be/DLKernOpenData/api/v1/haltes/2/200014"
+    }
+   ]
+  }
+ ],
+ "links": [
+  {
+   "rel": "self",
+   "url": "https://api.delijn.be/DLKernOpenData/api/v1/gemeenten/1378/haltes"
+  }
+ ]
+}

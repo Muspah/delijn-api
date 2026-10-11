@@ -1,0 +1,48 @@
+{
+ "lijnen": [
+  {
+   "entiteitnummer": "2",
+   "lijnnummer": "962",
+   "lijnnummerPubliek": "Flex",
+   "omschrijving": "Regio Gent (West)",
+   "vervoerRegioCode": "GE",
+   "publiek": true,
+   "vervoertype": "BUS",
+   "bedieningtype": "FLEX",
+   "vervoerslaag": "Vervoer op Maat",
+   "lijnGeldigVan": "2026-09-01",
+   "lijnGeldigTot": "2026-11-08",
+   "links": [
+    {
+     "rel": "detail",
+     "url": "https://api.delijn.be/DLKernOpenData/api/v1/lijnen/2/962"
+    }
+   ]
+  },
+  {
+   "entiteitnummer": "2",
+   "lijnnummer": "194",
+   "lijnnummerPubliek": "19",
+   "omschrijving": "Arteveldestadion - Sint-Pietersstation - Blaarmeersen",
+   "vervoerRegioCode": "GE",
+   "publiek": true,
+   "vervoertype": "BUS",
+   "bedieningtype": "NORMAAL",
+   "vervoerslaag": "Aanvullend net cadans",
+   "lijnGeldigVan": "2026-07-01",
+   "lijnGeldigTot": "2026-12-31",
+   "links": [
+    {
+     "rel": "detail",
+     "url": "https://api.delijn.be/DLKernOpenData/api/v1/lijnen/2/194"
+    }
+   ]
+  }
+ ],
+ "links": [
+  {
+   "rel": "self",
+   "url": "https://api.delijn.be/DLKernOpenData/api/v1/gemeenten/1378/lijnen"
+  }
+ ]
+}

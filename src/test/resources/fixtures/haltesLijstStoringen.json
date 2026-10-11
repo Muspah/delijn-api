@@ -1,0 +1,98 @@
+{
+ "halteOmleidingen": [
+  {
+   "halte": {
+    "entiteitnummer": "2",
+    "haltenummer": "204911",
+    "halteToegankelijkheden": [],
+    "hoofdHalte": null,
+    "bedieningsTypes": null,
+    "links": [
+     {
+      "rel": "lijnrichtingen",
+      "url": "https://api.delijn.be/DLKernOpenData/api/v1/haltes/2/204911/lijnrichtingen"
+     },
+     {
+      "rel": "real-time",
+      "url": "https://api.delijn.be/DLKernOpenData/api/v1/haltes/2/204911/real-time"
+     }
+    ]
+   },
+   "omleidingen": [
+    {
+     "titel": "Onverwachte hinder",
+     "titelMeertalig": {
+      "nederlands": "Onverwachte hinder",
+      "frans": "Perturbation inattendue",
+      "engels": "Unexpected disruption",
+      "duits": "Unerwartete Störung"
+     },
+     "omschrijving": "T1: Perron 1 afgeschaft. Tram T1 naar Expo aan perron 1 bis",
+     "omschrijvingMeertalig": {
+      "nederlands": "T1: Perron 1 afgeschaft. Tram T1 naar Expo aan perron 1 bis",
+      "frans": "T1 : Quai 1 supprimé. Tram T1 vers Expo au quai 1 bis",
+      "engels": "T1: Platform 1 canceled. Tram T1 to Expo at platform 1 bis",
+      "duits": "T1: Gleis 1 aufgehoben. Tram T1 nach Expo an Gleis 1 bis"
+     },
+     "omschrijvingMeertaligKort": {
+      "nederlands": "T1: Perron 1 afgeschaft. Tram T1 naar Expo aan perron 1 bis",
+      "frans": "T1 : Quai 1 supprimé. Tram T1 vers Expo au quai 1 bis",
+      "engels": "T1: Platform 1 canceled. Tram T1 to Expo at platform 1 bis",
+      "duits": "T1: Gleis 1 aufgehoben. Tram T1 nach Expo an Gleis 1 bis"
+     },
+     "periode": {
+      "startDatum": "2026-09-14T06:30:47",
+      "eindDatum": "2026-10-12T01:00:00"
+     },
+     "lijnrichtingen": [
+      {
+       "entiteitnummer": "2",
+       "lijnnummer": "4",
+       "richting": "TERUG",
+       "omschrijving": "Stelplaats Gentbrugge - Keizerpoort - Zuid - Flanders Expo",
+       "links": [
+        {
+         "rel": "lijnrichting",
+         "url": "https://api.delijn.be/DLKernOpenData/api/v1/lijnen/2/4/lijnrichtingen/TERUG"
+        }
+       ]
+      },
+      {
+       "entiteitnummer": "2",
+       "lijnnummer": "7",
+       "richting": "TERUG",
+       "omschrijving": "Moscou - Zuid - Kouter - Sint-Pietersstation- Flanders Expo",
+       "links": [
+        {
+         "rel": "lijnrichting",
+         "url": "https://api.delijn.be/DLKernOpenData/api/v1/lijnen/2/7/lijnrichtingen/TERUG"
+        }
+       ]
+      }
+     ],
+     "haltes": [
+      {
+       "entiteitnummer": "2",
+       "haltenummer": "204911",
+       "halteToegankelijkheden": [],
+       "hoofdHalte": null,
+       "bedieningsTypes": null,
+       "links": [
+        {
+         "rel": "halte",
+         "url": "https://api.delijn.be/DLKernOpenData/api/v1/haltes/2/204911"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "links": [
+  {
+   "rel": "self",
+   "url": "https://api.delijn.be/DLKernOpenData/api/v1/haltes/lijst/2_204911_2_205914/storingen"
+  }
+ ]
+}

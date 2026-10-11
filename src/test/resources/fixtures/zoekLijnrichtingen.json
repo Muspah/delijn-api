@@ -1,0 +1,27 @@
+{
+ "aantalHits": 3,
+ "lijnrichtingen": [
+  {
+   "lijnNummerPubliek": "1",
+   "entiteitnummer": "1",
+   "lijnnummer": "1",
+   "richting": "HEEN",
+   "omschrijving": "Zuid - P+R Luchtbal",
+   "kleurVoorGrond": "#FFFFFF",
+   "kleurAchterGrond": "#8C2B87",
+   "kleurAchterGrondRand": "#8C2B87",
+   "kleurVoorGrondRand": "#000000"
+  },
+  {
+   "lijnNummerPubliek": "1",
+   "entiteitnummer": "1",
+   "lijnnummer": "1",
+   "richting": "TERUG",
+   "omschrijving": "P+R Luchtbal - Zuid",
+   "kleurVoorGrond": "#FFFFFF",
+   "kleurAchterGrond": "#8C2B87",
+   "kleurAchterGrondRand": "#8C2B87",
+   "kleurVoorGrondRand": "#000000"
+  }
+ ]
+}

@@ -1,0 +1,48 @@
+{
+ "lijnen": [
+  {
+   "entiteitnummer": "1",
+   "lijnnummer": "63",
+   "lijnnummerPubliek": "Flex",
+   "omschrijving": "Regio Antwerpen (Rechteroever)",
+   "vervoerRegioCode": "AN",
+   "publiek": true,
+   "vervoertype": "BUS",
+   "bedieningtype": "FLEX",
+   "vervoerslaag": "Vervoer op Maat",
+   "lijnGeldigVan": "2026-09-01",
+   "lijnGeldigTot": "2026-11-08",
+   "links": [
+    {
+     "rel": "detail",
+     "url": "https://api.delijn.be/DLKernOpenData/api/v1/lijnen/1/63"
+    }
+   ]
+  },
+  {
+   "entiteitnummer": "2",
+   "lijnnummer": "968",
+   "lijnnummerPubliek": "Flex",
+   "omschrijving": "Regio Vlaamse Ardennen",
+   "vervoerRegioCode": "VA",
+   "publiek": true,
+   "vervoertype": "BUS",
+   "bedieningtype": "FLEX",
+   "vervoerslaag": "Vervoer op Maat",
+   "lijnGeldigVan": "2026-09-01",
+   "lijnGeldigTot": "2026-11-08",
+   "links": [
+    {
+     "rel": "detail",
+     "url": "https://api.delijn.be/DLKernOpenData/api/v1/lijnen/2/968"
+    }
+   ]
+  }
+ ],
+ "links": [
+  {
+   "rel": "self",
+   "url": "https://api.delijn.be/DLKernOpenData/api/v1/lijnen"
+  }
+ ]
+}

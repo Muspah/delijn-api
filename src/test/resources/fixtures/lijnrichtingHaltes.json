@@ -1,0 +1,59 @@
+{
+ "haltes": [
+  {
+   "entiteitnummer": "2",
+   "haltenummer": "200065",
+   "omschrijving": "Zuid perron 1",
+   "omschrijvingLang": "Gent Zuid perron 1",
+   "gemeentenummer": 4612,
+   "omschrijvingGemeente": "Gent",
+   "geoCoordinaat": {
+    "latitude": 51.04823,
+    "longitude": 3.73161
+   },
+   "halteToegankelijkheden": [
+    "VISUELE_BEPERKING"
+   ],
+   "hoofdHalte": null,
+   "taal": "NEDERLANDS",
+   "bedieningsTypes": null,
+   "links": [
+    {
+     "rel": "detail",
+     "url": "https://api.delijn.be/DLKernOpenData/api/v1/haltes/2/200065"
+    }
+   ]
+  },
+  {
+   "entiteitnummer": "2",
+   "haltenummer": "200089",
+   "omschrijving": "Lippensplein",
+   "omschrijvingLang": "Gent Lippensplein",
+   "gemeentenummer": 4612,
+   "omschrijvingGemeente": "Gent",
+   "geoCoordinaat": {
+    "latitude": 51.05023,
+    "longitude": 3.72945
+   },
+   "halteToegankelijkheden": [
+    "MOTORISCH_MET_ASSIST",
+    "VISUELE_BEPERKING"
+   ],
+   "hoofdHalte": null,
+   "taal": "NEDERLANDS",
+   "bedieningsTypes": null,
+   "links": [
+    {
+     "rel": "detail",
+     "url": "https://api.delijn.be/DLKernOpenData/api/v1/haltes/2/200089"
+    }
+   ]
+  }
+ ],
+ "links": [
+  {
+   "rel": "self",
+   "url": "https://api.delijn.be/DLKernOpenData/api/v1/lijnen/2/7/lijnrichtingen/TERUG/haltes"
+  }
+ ]
+}

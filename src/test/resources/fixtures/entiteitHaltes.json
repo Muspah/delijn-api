@@ -1,0 +1,82 @@
+{
+ "haltes": [
+  {
+   "entiteitnummer": "2",
+   "haltenummer": "200014",
+   "omschrijving": "Hortensiastraat",
+   "omschrijvingLang": "Gent Hortensiastraat",
+   "gemeentenummer": 4612,
+   "omschrijvingGemeente": "Gent",
+   "geoCoordinaat": {
+    "latitude": 51.07033,
+    "longitude": 3.70386
+   },
+   "halteToegankelijkheden": [
+    "MOTORISCHE_BEPERKING",
+    "VISUELE_BEPERKING"
+   ],
+   "hoofdHalte": null,
+   "taal": "NEDERLANDS",
+   "classificatie": "REGULIER",
+   "bedieningsTypes": [
+    "TRAM"
+   ],
+   "plaats": {
+    "plaatsNaam": "Gent Hortensiastraat",
+    "verkortePlaatsNaam": "Hortensiastraat",
+    "geoCoordinaat": {
+     "latitude": 0.0,
+     "longitude": 0.0
+    }
+   },
+   "links": [
+    {
+     "rel": "detail",
+     "url": "https://api.delijn.be/DLKernOpenData/api/v1/haltes/2/200014"
+    }
+   ]
+  },
+  {
+   "entiteitnummer": "2",
+   "haltenummer": "200016",
+   "omschrijving": "Guislainstraat",
+   "omschrijvingLang": "Gent Guislainstraat",
+   "gemeentenummer": 229,
+   "omschrijvingGemeente": "Gent",
+   "geoCoordinaat": {
+    "latitude": 51.06583,
+    "longitude": 3.70215
+   },
+   "halteToegankelijkheden": [
+    "MOTORISCHE_BEPERKING",
+    "VISUELE_BEPERKING"
+   ],
+   "hoofdHalte": null,
+   "taal": "NEDERLANDS",
+   "classificatie": "REGULIER",
+   "bedieningsTypes": [
+    "TRAM"
+   ],
+   "plaats": {
+    "plaatsNaam": "Gent Guislainstraat",
+    "verkortePlaatsNaam": "Guislainstraat",
+    "geoCoordinaat": {
+     "latitude": 51.065049,
+     "longitude": 3.70401
+    }
+   },
+   "links": [
+    {
+     "rel": "detail",
+     "url": "https://api.delijn.be/DLKernOpenData/api/v1/haltes/2/200016"
+    }
+   ]
+  }
+ ],
+ "links": [
+  {
+   "rel": "self",
+   "url": "https://api.delijn.be/DLKernOpenData/api/v1/entiteiten/2/haltes"
+  }
+ ]
+}

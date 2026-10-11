@@ -1,0 +1,22 @@
+{
+ "lijnrichtingen": [
+  {
+   "entiteitnummer": "2",
+   "lijnnummer": "7",
+   "richting": "TERUG",
+   "omschrijving": "Moscou - Zuid - Kouter - Sint-Pietersstation- Flanders Expo",
+   "links": [
+    {
+     "rel": "detail",
+     "url": "https://api.delijn.be/DLKernOpenData/api/v1/lijnen/2/7/lijnrichtingen/TERUG"
+    }
+   ]
+  }
+ ],
+ "links": [
+  {
+   "rel": "self",
+   "url": "https://api.delijn.be/DLKernOpenData/api/v1/haltes/2/204911/lijnrichtingen"
+  }
+ ]
+}

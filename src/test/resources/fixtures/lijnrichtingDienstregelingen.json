@@ -1,0 +1,91 @@
+{
+ "ritDoorkomsten": [
+  {
+   "ritnummer": "38",
+   "bestemming": "Sint-Denijs-Westrem Flanders Expo",
+   "plaatsBestemming": "Sint-Denijs-Westrem Flanders Expo",
+   "vias": [],
+   "bestemmingKort": "Flanders Expo",
+   "doorkomsten": [
+    {
+     "doorkomstId": "2026-10-11_2007_38_1_200065",
+     "haltenummer": "200065",
+     "dienstregelingTijdstip": "2026-10-11T06:32:00",
+     "links": [
+      {
+       "rel": "halte",
+       "url": "https://api.delijn.be/DLKernOpenData/api/v1/haltes/2/200065"
+      },
+      {
+       "rel": "lijnrichting",
+       "url": "https://api.delijn.be/DLKernOpenData/api/v1/lijnen/2/7/lijnrichtingen/TERUG"
+      }
+     ]
+    },
+    {
+     "doorkomstId": "2026-10-11_2007_38_2_200089",
+     "haltenummer": "200089",
+     "dienstregelingTijdstip": "2026-10-11T06:33:00",
+     "links": [
+      {
+       "rel": "halte",
+       "url": "https://api.delijn.be/DLKernOpenData/api/v1/haltes/2/200089"
+      },
+      {
+       "rel": "lijnrichting",
+       "url": "https://api.delijn.be/DLKernOpenData/api/v1/lijnen/2/7/lijnrichtingen/TERUG"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "ritnummer": "46",
+   "bestemming": "Sint-Denijs-Westrem Flanders Expo",
+   "plaatsBestemming": "Sint-Denijs-Westrem Flanders Expo",
+   "vias": [],
+   "bestemmingKort": "Flanders Expo",
+   "doorkomsten": [
+    {
+     "doorkomstId": "2026-10-11_2007_46_1_200065",
+     "haltenummer": "200065",
+     "dienstregelingTijdstip": "2026-10-11T06:53:00",
+     "links": [
+      {
+       "rel": "halte",
+       "url": "https://api.delijn.be/DLKernOpenData/api/v1/haltes/2/200065"
+      },
+      {
+       "rel": "lijnrichting",
+       "url": "https://api.delijn.be/DLKernOpenData/api/v1/lijnen/2/7/lijnrichtingen/TERUG"
+      }
+     ]
+    },
+    {
+     "doorkomstId": "2026-10-11_2007_46_2_200089",
+     "haltenummer": "200089",
+     "dienstregelingTijdstip": "2026-10-11T06:54:00",
+     "links": [
+      {
+       "rel": "halte",
+       "url": "https://api.delijn.be/DLKernOpenData/api/v1/haltes/2/200089"
+      },
+      {
+       "rel": "lijnrichting",
+       "url": "https://api.delijn.be/DLKernOpenData/api/v1/lijnen/2/7/lijnrichtingen/TERUG"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "links": [
+  {
+   "rel": "self",
+   "url": "https://api.delijn.be/DLKernOpenData/api/v1/lijnen/2/7/lijnrichtingen/TERUG/dienstregelingen?datum=2026-10-11"
+  }
+ ],
+ "doorkomstNotas": [],
+ "ritNotas": [],
+ "omleidingen": []
+}

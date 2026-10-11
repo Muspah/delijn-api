@@ -1,0 +1,51 @@
+{
+ "ritDoorkomsten": [
+  {
+   "ritnummer": "230",
+   "bestemming": "Sint-Denijs-Westrem Flanders Expo",
+   "plaatsBestemming": "Sint-Denijs-Westrem Flanders Expo",
+   "vias": [],
+   "doorkomsten": [
+    {
+     "doorkomstId": "2026-10-11_2007_230_1_200065",
+     "haltenummer": "200065",
+     "dienstregelingTijdstip": "2026-10-11T12:22:00",
+     "links": [
+      {
+       "rel": "halte",
+       "url": "https://api.delijn.be/DLKernOpenData/api/v1/haltes/2/200065"
+      },
+      {
+       "rel": "lijnrichting",
+       "url": "https://api.delijn.be/DLKernOpenData/api/v1/lijnen/2/7/lijnrichtingen/TERUG"
+      }
+     ]
+    },
+    {
+     "doorkomstId": "2026-10-11_2007_230_2_200089",
+     "haltenummer": "200089",
+     "dienstregelingTijdstip": "2026-10-11T12:23:00",
+     "links": [
+      {
+       "rel": "halte",
+       "url": "https://api.delijn.be/DLKernOpenData/api/v1/haltes/2/200089"
+      },
+      {
+       "rel": "lijnrichting",
+       "url": "https://api.delijn.be/DLKernOpenData/api/v1/lijnen/2/7/lijnrichtingen/TERUG"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "links": [
+  {
+   "rel": "self",
+   "url": "https://api.delijn.be/DLKernOpenData/api/v1/lijnen/2/7/lijnrichtingen/TERUG/rit/230?datum=2026-10-11"
+  }
+ ],
+ "doorkomstNotas": [],
+ "ritNotas": [],
+ "omleidingen": []
+}

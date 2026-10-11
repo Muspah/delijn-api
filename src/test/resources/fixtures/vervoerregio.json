@@ -1,0 +1,15 @@
+{
+ "code": "GE",
+ "naam": "Gent",
+ "nr": "04",
+ "links": [
+  {
+   "rel": "self",
+   "url": "https://api.delijn.be/DLKernOpenData/api/v1/vervoerregios/GE"
+  },
+  {
+   "rel": "lijnen",
+   "url": "https://api.delijn.be/DLKernOpenData/api/v1/vervoerregios/GE/lijnen"
+  }
+ ]
+}

@@ -1,0 +1,56 @@
+{
+ "lijnen": [
+  {
+   "entiteitnummer": "2",
+   "lijnnummer": "7",
+   "lijnnummerPubliek": "T1",
+   "omschrijving": "Flanders Expo - Sint-Pietersstation - Kouter - Zuid - Moscou",
+   "vervoerRegioCode": "GE",
+   "publiek": true,
+   "vervoertype": "TRAM",
+   "bedieningtype": "NORMAAL",
+   "vervoerslaag": "Kernnet",
+   "lijnGeldigVan": "2026-08-03",
+   "lijnGeldigTot": "2026-11-01",
+   "links": [
+    {
+     "rel": "lijnkleuren",
+     "url": "https://api.delijn.be/DLKernOpenData/api/v1/lijnen/2/7/lijnkleuren"
+    },
+    {
+     "rel": "lijnrichtingen",
+     "url": "https://api.delijn.be/DLKernOpenData/api/v1/lijnen/2/7/lijnrichtingen"
+    }
+   ]
+  },
+  {
+   "entiteitnummer": "1",
+   "lijnnummer": "1",
+   "lijnnummerPubliek": "1",
+   "omschrijving": "Zuid - P+R Luchtbal",
+   "vervoerRegioCode": "AN",
+   "publiek": true,
+   "vervoertype": "TRAM",
+   "bedieningtype": "NORMAAL",
+   "vervoerslaag": "Kernnet",
+   "lijnGeldigVan": "2026-09-01",
+   "lijnGeldigTot": "2026-11-08",
+   "links": [
+    {
+     "rel": "lijnkleuren",
+     "url": "https://api.delijn.be/DLKernOpenData/api/v1/lijnen/1/1/lijnkleuren"
+    },
+    {
+     "rel": "lijnrichtingen",
+     "url": "https://api.delijn.be/DLKernOpenData/api/v1/lijnen/1/1/lijnrichtingen"
+    }
+   ]
+  }
+ ],
+ "links": [
+  {
+   "rel": "self",
+   "url": "https://api.delijn.be/DLKernOpenData/api/v1/lijnen/lijst/2_7_1_1"
+  }
+ ]
+}

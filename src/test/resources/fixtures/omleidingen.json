@@ -1,0 +1,134 @@
+{
+ "omleidingen": [
+  {
+   "titel": "Werken aan stationsgebouw thv halte",
+   "titelMeertalig": {
+    "nederlands": "Werken aan stationsgebouw thv halte",
+    "frans": "Werken aan stationsgebouw thv halte",
+    "duits": "Werken aan stationsgebouw thv halte",
+    "engels": "Werken aan stationsgebouw thv halte"
+   },
+   "omschrijving": "Periode van maandag 5 januari 2026 tot het einde van de werken.",
+   "omschrijvingMeertalig": {
+    "nederlands": "Periode van maandag 5 januari 2026 tot het einde van de werken.",
+    "frans": "Période allant du lundi 5 janvier 2026 jusqu'à la fin des travaux.",
+    "duits": "Zeitraum von Montag 5 Januar 2026 bis zum Ende der Bauarbeiten.",
+    "engels": "Period from Monday January 5, 2026 until the end of the works."
+   },
+   "periode": {
+    "startDatum": "2026-01-05T00:00:00"
+   },
+   "lijnrichtingen": [
+    {
+     "entiteitnummer": "2",
+     "lijnnummer": "317",
+     "richting": "HEEN",
+     "omschrijving": "Aalst - Denderleeuw - Ninove",
+     "links": [
+      {
+       "rel": "lijnrichting",
+       "url": "https://api.delijn.be/DLKernOpenData/api/v1/lijnen/2/317/lijnrichtingen/HEEN"
+      }
+     ]
+    },
+    {
+     "entiteitnummer": "2",
+     "lijnnummer": "313",
+     "richting": "HEEN",
+     "omschrijving": "Aalst - Denderleeuw Hemelrijk - Aspelare - Ninove",
+     "links": [
+      {
+       "rel": "lijnrichting",
+       "url": "https://api.delijn.be/DLKernOpenData/api/v1/lijnen/2/313/lijnrichtingen/HEEN"
+      }
+     ]
+    }
+   ],
+   "haltes": [
+    {
+     "entiteitnummer": "2",
+     "haltenummer": "207104",
+     "halteToegankelijkheden": [],
+     "hoofdHalte": null,
+     "bedieningsTypes": null,
+     "links": [
+      {
+       "rel": "halte",
+       "url": "https://api.delijn.be/DLKernOpenData/api/v1/haltes/2/207104"
+      }
+     ]
+    }
+   ],
+   "referentieOmleiding": 0,
+   "omleidingsDagen": []
+  },
+  {
+   "titel": "Wijziging vertrekhalte Lange Steenstraat (T4)",
+   "titelMeertalig": {
+    "nederlands": "Wijziging vertrekhalte Lange Steenstraat (T4)",
+    "frans": "Wijziging vertrekhalte Lange Steenstraat (T4)",
+    "duits": "Wijziging vertrekhalte Lange Steenstraat (T4)",
+    "engels": "Wijziging vertrekhalte Lange Steenstraat (T4)"
+   },
+   "omschrijving": "Periode van vrijdag 16 mei 2025 om 4:00 tot het einde van de werken.",
+   "omschrijvingMeertalig": {
+    "nederlands": "Periode van vrijdag 16 mei 2025 om 4:00 tot het einde van de werken.",
+    "frans": "Période allant du vendredi 16 mai 2025 à 4:00 jusqu'à la fin des travaux.",
+    "duits": "Zeitraum von Freitag 16 Mai 2025 von 4:00 bis zum Ende der Bauarbeiten.",
+    "engels": "Period from Friday May 16, 2025 at 4:00 until the end of the works."
+   },
+   "periode": {
+    "startDatum": "2025-05-16T04:00:00"
+   },
+   "lijnrichtingen": [
+    {
+     "entiteitnummer": "2",
+     "lijnnummer": "045",
+     "richting": "TERUG",
+     "omschrijving": "Lange Steenstraat - Muide - Rabot - Sint-Pietersstation - UZ",
+     "links": [
+      {
+       "rel": "lijnrichting",
+       "url": "https://api.delijn.be/DLKernOpenData/api/v1/lijnen/2/045/lijnrichtingen/TERUG"
+      }
+     ]
+    },
+    {
+     "entiteitnummer": "2",
+     "lijnnummer": "056",
+     "richting": "TERUG",
+     "omschrijving": "Lange Steenstraat - Muide - Rabot - Sint-Pietersstation",
+     "links": [
+      {
+       "rel": "lijnrichting",
+       "url": "https://api.delijn.be/DLKernOpenData/api/v1/lijnen/2/056/lijnrichtingen/TERUG"
+      }
+     ]
+    }
+   ],
+   "haltes": [
+    {
+     "entiteitnummer": "2",
+     "haltenummer": "200101",
+     "halteToegankelijkheden": [],
+     "hoofdHalte": null,
+     "bedieningsTypes": null,
+     "links": [
+      {
+       "rel": "halte",
+       "url": "https://api.delijn.be/DLKernOpenData/api/v1/haltes/2/200101"
+      }
+     ]
+    }
+   ],
+   "referentieOmleiding": 0,
+   "omleidingsDagen": []
+  }
+ ],
+ "links": [
+  {
+   "rel": "self",
+   "url": "https://api.delijn.be/DLKernOpenData/api/v1/omleidingen"
+  }
+ ]
+}

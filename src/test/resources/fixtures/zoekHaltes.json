@@ -1,0 +1,35 @@
+{
+ "aantalHits": 20,
+ "haltes": [
+  {
+   "entiteitnummer": "2",
+   "haltenummer": "204911",
+   "omschrijving": "Gent Sint-Pietersstation perron 1",
+   "geoCoordinaat": {
+    "latitude": 3.70878,
+    "longitude": 51.03707
+   },
+   "halteToegankelijkheden": [
+    "MOTORISCHE_BEPERKING",
+    "VISUELE_BEPERKING"
+   ],
+   "hoofdHalte": null,
+   "bedieningsTypes": null
+  },
+  {
+   "entiteitnummer": "2",
+   "haltenummer": "205914",
+   "omschrijving": "Gent Sint-Pietersstation perron 14",
+   "geoCoordinaat": {
+    "latitude": 3.7094,
+    "longitude": 51.0365
+   },
+   "halteToegankelijkheden": [
+    "MOTORISCHE_BEPERKING",
+    "VISUELE_BEPERKING"
+   ],
+   "hoofdHalte": null,
+   "bedieningsTypes": null
+  }
+ ]
+}

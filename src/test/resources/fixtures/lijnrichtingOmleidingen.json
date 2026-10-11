@@ -1,0 +1,72 @@
+{
+ "omleidingen": [
+  {
+   "titel": "Werken Martelaarslaan (fase 2) : tramhaltes Bijlokehof tijdelijk afgeschaft",
+   "titelMeertalig": {
+    "nederlands": "Werken Martelaarslaan (fase 2) : tramhaltes Bijlokehof tijdelijk afgeschaft",
+    "frans": "Werken Martelaarslaan (fase 2) : tramhaltes Bijlokehof tijdelijk afgeschaft",
+    "duits": "Werken Martelaarslaan (fase 2) : tramhaltes Bijlokehof tijdelijk afgeschaft",
+    "engels": "Werken Martelaarslaan (fase 2) : tramhaltes Bijlokehof tijdelijk afgeschaft"
+   },
+   "omschrijving": "Periode van maandag 13 april 2026 tot het einde van de werken.",
+   "omschrijvingMeertalig": {
+    "nederlands": "Periode van maandag 13 april 2026 tot het einde van de werken.",
+    "frans": "Période allant du lundi 13 avril 2026 jusqu'à la fin des travaux.",
+    "duits": "Zeitraum von Montag 13 April 2026 bis zum Ende der Bauarbeiten.",
+    "engels": "Period from Monday April 13, 2026 until the end of the works."
+   },
+   "periode": {
+    "startDatum": "2026-04-13T00:00:00"
+   },
+   "lijnrichtingen": [
+    {
+     "entiteitnummer": "2",
+     "lijnnummer": "032",
+     "richting": "TERUG",
+     "omschrijving": "Stelplaats - Ledeberg - Zuid - Sint-Pieters - Zwijnaarde",
+     "links": [
+      {
+       "rel": "lijnrichting",
+       "url": "https://api.delijn.be/DLKernOpenData/api/v1/lijnen/2/032/lijnrichtingen/TERUG"
+      }
+     ]
+    },
+    {
+     "entiteitnummer": "2",
+     "lijnnummer": "033",
+     "richting": "TERUG",
+     "omschrijving": "Stelplaats - Ledeberg - Gent Zuid - Sint-Pieters",
+     "links": [
+      {
+       "rel": "lijnrichting",
+       "url": "https://api.delijn.be/DLKernOpenData/api/v1/lijnen/2/033/lijnrichtingen/TERUG"
+      }
+     ]
+    }
+   ],
+   "haltes": [
+    {
+     "entiteitnummer": "2",
+     "haltenummer": "200074",
+     "halteToegankelijkheden": [],
+     "hoofdHalte": null,
+     "bedieningsTypes": null,
+     "links": [
+      {
+       "rel": "halte",
+       "url": "https://api.delijn.be/DLKernOpenData/api/v1/haltes/2/200074"
+      }
+     ]
+    }
+   ],
+   "referentieOmleiding": 0,
+   "omleidingsDagen": []
+  }
+ ],
+ "links": [
+  {
+   "rel": "self",
+   "url": "https://api.delijn.be/DLKernOpenData/api/v1/lijnen/2/7/lijnrichtingen/TERUG/omleidingen"
+  }
+ ]
+}

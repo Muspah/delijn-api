@@ -1,0 +1,74 @@
+{
+ "haltes": [
+  {
+   "entiteitnummer": "1",
+   "haltenummer": "100795",
+   "omschrijving": "Jan Moorkens vervanghalte",
+   "omschrijvingLang": "Berchem Jan Moorkens vervanghalte",
+   "gemeentenummer": 4384,
+   "omschrijvingGemeente": "Antwerpen",
+   "geoCoordinaat": {
+    "latitude": 51.18714,
+    "longitude": 4.4287
+   },
+   "halteToegankelijkheden": [],
+   "hoofdHalte": null,
+   "taal": "NEDERLANDS",
+   "classificatie": "REGULIER",
+   "bedieningsTypes": [
+    "BUS"
+   ],
+   "plaats": {
+    "plaatsNaam": "Berchem Jan Moorkens vervanghalte",
+    "verkortePlaatsNaam": "Jan Moorkens vervanghalte",
+    "geoCoordinaat": {
+     "latitude": 0.0,
+     "longitude": 0.0
+    }
+   },
+   "links": [
+    {
+     "rel": "detail",
+     "url": "https://api.delijn.be/DLKernOpenData/api/v1/haltes/1/100795"
+    }
+   ]
+  },
+  {
+   "entiteitnummer": "1",
+   "haltenummer": "100799",
+   "omschrijving": "Harmonie vervanghalte",
+   "omschrijvingLang": "Antwerpen Harmonie vervanghalte",
+   "gemeentenummer": 4390,
+   "omschrijvingGemeente": "Antwerpen",
+   "geoCoordinaat": {
+    "latitude": 51.20096,
+    "longitude": 4.41367
+   },
+   "halteToegankelijkheden": [],
+   "hoofdHalte": null,
+   "taal": "NEDERLANDS",
+   "classificatie": "TIJDELIJK",
+   "bedieningsTypes": [],
+   "plaats": {
+    "plaatsNaam": "Antwerpen Harmonie vervanghalte",
+    "verkortePlaatsNaam": "Harmonie vervanghalte",
+    "geoCoordinaat": {
+     "latitude": 0.0,
+     "longitude": 0.0
+    }
+   },
+   "links": [
+    {
+     "rel": "detail",
+     "url": "https://api.delijn.be/DLKernOpenData/api/v1/haltes/1/100799"
+    }
+   ]
+  }
+ ],
+ "links": [
+  {
+   "rel": "self",
+   "url": "https://api.delijn.be/DLKernOpenData/api/v1/haltes"
+  }
+ ]
+}

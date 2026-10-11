@@ -1,0 +1,88 @@
+{
+ "halteLijnrichtingen": [
+  {
+   "halte": {
+    "entiteitnummer": "2",
+    "haltenummer": "204911",
+    "halteToegankelijkheden": [],
+    "hoofdHalte": null,
+    "bedieningsTypes": null,
+    "links": [
+     {
+      "rel": "lijnrichtingen",
+      "url": "https://api.delijn.be/DLKernOpenData/api/v1/haltes/2/204911/lijnrichtingen"
+     },
+     {
+      "rel": "real-time",
+      "url": "https://api.delijn.be/DLKernOpenData/api/v1/haltes/2/204911/real-time"
+     }
+    ]
+   },
+   "lijnrichtingen": [
+    {
+     "entiteitnummer": "2",
+     "lijnnummer": "7",
+     "richting": "TERUG",
+     "omschrijving": "Moscou - Zuid - Kouter - Sint-Pietersstation- Flanders Expo",
+     "links": [
+      {
+       "rel": "detail",
+       "url": "https://api.delijn.be/DLKernOpenData/api/v1/lijnen/2/7/lijnrichtingen/TERUG"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "halte": {
+    "entiteitnummer": "2",
+    "haltenummer": "205914",
+    "halteToegankelijkheden": [],
+    "hoofdHalte": null,
+    "bedieningsTypes": null,
+    "links": [
+     {
+      "rel": "lijnrichtingen",
+      "url": "https://api.delijn.be/DLKernOpenData/api/v1/haltes/2/205914/lijnrichtingen"
+     },
+     {
+      "rel": "real-time",
+      "url": "https://api.delijn.be/DLKernOpenData/api/v1/haltes/2/205914/real-time"
+     }
+    ]
+   },
+   "lijnrichtingen": [
+    {
+     "entiteitnummer": "2",
+     "lijnnummer": "345",
+     "richting": "HEEN",
+     "omschrijving": "Gent - Destelbergen - Laarne - Wetteren",
+     "links": [
+      {
+       "rel": "detail",
+       "url": "https://api.delijn.be/DLKernOpenData/api/v1/lijnen/2/345/lijnrichtingen/HEEN"
+      }
+     ]
+    },
+    {
+     "entiteitnummer": "2",
+     "lijnnummer": "500",
+     "richting": "HEEN",
+     "omschrijving": "Gent Sint-Pieters - Drongen - Eeklo - Maldegem - Brugge",
+     "links": [
+      {
+       "rel": "detail",
+       "url": "https://api.delijn.be/DLKernOpenData/api/v1/lijnen/2/500/lijnrichtingen/HEEN"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "links": [
+  {
+   "rel": "self",
+   "url": "https://api.delijn.be/DLKernOpenData/api/v1/haltes/lijst/2_204911_2_205914/lijnrichtingen"
+  }
+ ]
+}

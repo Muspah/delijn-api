@@ -1,0 +1,94 @@
+{
+ "lijnLijnrichtingen": [
+  {
+   "lijn": {
+    "entiteitnummer": "2",
+    "lijnnummer": "7",
+    "links": [
+     {
+      "rel": "lijnkleuren",
+      "url": "https://api.delijn.be/DLKernOpenData/api/v1/lijnen/2/7/lijnkleuren"
+     },
+     {
+      "rel": "lijnrichtingen",
+      "url": "https://api.delijn.be/DLKernOpenData/api/v1/lijnen/2/7/lijnrichtingen"
+     }
+    ]
+   },
+   "lijnrichtingen": [
+    {
+     "entiteitnummer": "2",
+     "lijnnummer": "7",
+     "richting": "HEEN",
+     "omschrijving": "Flanders Expo - Sint-Pietersstation - Kouter - Zuid - Moscou",
+     "links": [
+      {
+       "rel": "detail",
+       "url": "https://api.delijn.be/DLKernOpenData/api/v1/lijnen/2/7/lijnrichtingen/HEEN"
+      }
+     ]
+    },
+    {
+     "entiteitnummer": "2",
+     "lijnnummer": "7",
+     "richting": "TERUG",
+     "omschrijving": "Moscou - Zuid - Kouter - Sint-Pietersstation- Flanders Expo",
+     "links": [
+      {
+       "rel": "detail",
+       "url": "https://api.delijn.be/DLKernOpenData/api/v1/lijnen/2/7/lijnrichtingen/TERUG"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "lijn": {
+    "entiteitnummer": "1",
+    "lijnnummer": "1",
+    "links": [
+     {
+      "rel": "lijnkleuren",
+      "url": "https://api.delijn.be/DLKernOpenData/api/v1/lijnen/1/1/lijnkleuren"
+     },
+     {
+      "rel": "lijnrichtingen",
+      "url": "https://api.delijn.be/DLKernOpenData/api/v1/lijnen/1/1/lijnrichtingen"
+     }
+    ]
+   },
+   "lijnrichtingen": [
+    {
+     "entiteitnummer": "1",
+     "lijnnummer": "1",
+     "richting": "HEEN",
+     "omschrijving": "Zuid - P+R Luchtbal",
+     "links": [
+      {
+       "rel": "detail",
+       "url": "https://api.delijn.be/DLKernOpenData/api/v1/lijnen/1/1/lijnrichtingen/HEEN"
+      }
+     ]
+    },
+    {
+     "entiteitnummer": "1",
+     "lijnnummer": "1",
+     "richting": "TERUG",
+     "omschrijving": "P+R Luchtbal - Zuid",
+     "links": [
+      {
+       "rel": "detail",
+       "url": "https://api.delijn.be/DLKernOpenData/api/v1/lijnen/1/1/lijnrichtingen/TERUG"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "links": [
+  {
+   "rel": "self",
+   "url": "https://api.delijn.be/DLKernOpenData/api/v1/lijnen/lijst/2_7_1_1/lijnrichtingen"
+  }
+ ]
+}

@@ -1,0 +1,23 @@
+{
+ "entiteitnummer": "2",
+ "lijnnummer": "7",
+ "lijnnummerPubliek": "T1",
+ "omschrijving": "Flanders Expo - Sint-Pietersstation - Kouter - Zuid - Moscou",
+ "vervoerRegioCode": "GE",
+ "publiek": true,
+ "vervoertype": "TRAM",
+ "bedieningtype": "NORMAAL",
+ "vervoerslaag": "Kernnet",
+ "lijnGeldigVan": "2026-08-03",
+ "lijnGeldigTot": "2026-11-01",
+ "links": [
+  {
+   "rel": "self",
+   "url": "https://api.delijn.be/DLKernOpenData/api/v1/lijnen/2/7"
+  },
+  {
+   "rel": "lijnkleuren",
+   "url": "https://api.delijn.be/DLKernOpenData/api/v1/lijnen/2/7/lijnkleuren"
+  }
+ ]
+}

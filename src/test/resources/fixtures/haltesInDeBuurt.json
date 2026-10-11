@@ -1,0 +1,50 @@
+{
+ "haltes": [
+  {
+   "type": "DELIJN",
+   "id": "204918",
+   "naam": "Gent Sint-Pietersstation perron 8",
+   "afstand": 61,
+   "geoCoordinaat": {
+    "latitude": 51.03654,
+    "longitude": 3.70916
+   },
+   "links": [
+    {
+     "rel": "lijnrichtingen",
+     "url": "https://api.delijn.be/DLKernOpenData/api/v1/haltes/2/204918/lijnrichtingen"
+    },
+    {
+     "rel": "real-time",
+     "url": "https://api.delijn.be/DLKernOpenData/api/v1/haltes/2/204918/real-time"
+    }
+   ]
+  },
+  {
+   "type": "DELIJN",
+   "id": "205914",
+   "naam": "Gent Sint-Pietersstation perron 14",
+   "afstand": 62,
+   "geoCoordinaat": {
+    "latitude": 51.0365,
+    "longitude": 3.7094
+   },
+   "links": [
+    {
+     "rel": "lijnrichtingen",
+     "url": "https://api.delijn.be/DLKernOpenData/api/v1/haltes/2/205914/lijnrichtingen"
+    },
+    {
+     "rel": "real-time",
+     "url": "https://api.delijn.be/DLKernOpenData/api/v1/haltes/2/205914/real-time"
+    }
+   ]
+  }
+ ],
+ "links": [
+  {
+   "rel": "self",
+   "url": "https://api.delijn.be/DLKernOpenData/api/v1/haltes/indebuurt/51.036,3.709?radius=300&maxAantalHaltes=5"
+  }
+ ]
+}

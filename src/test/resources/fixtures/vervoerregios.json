@@ -1,0 +1,32 @@
+{
+ "vervoerRegios": [
+  {
+   "code": "AA",
+   "naam": "Dender",
+   "nr": "01",
+   "links": [
+    {
+     "rel": "lijnen",
+     "url": "https://api.delijn.be/DLKernOpenData/api/v1/vervoerregios/AA/lijnen"
+    }
+   ]
+  },
+  {
+   "code": "AN",
+   "naam": "Antwerpen",
+   "nr": "02",
+   "links": [
+    {
+     "rel": "lijnen",
+     "url": "https://api.delijn.be/DLKernOpenData/api/v1/vervoerregios/AN/lijnen"
+    }
+   ]
+  }
+ ],
+ "links": [
+  {
+   "rel": "self",
+   "url": "https://api.delijn.be/DLKernOpenData/api/v1/vervoerregios"
+  }
+ ]
+}

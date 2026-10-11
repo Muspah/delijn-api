@@ -1,0 +1,107 @@
+{
+ "ritDoorkomsten": [
+  {
+   "ritnummer": "230",
+   "bestemming": "Sint-Denijs-Westrem Flanders Expo",
+   "plaatsBestemming": "Sint-Denijs-Westrem Flanders Expo",
+   "vias": [],
+   "bestemmingKort": "Flanders Expo",
+   "doorkomsten": [
+    {
+     "doorkomstId": "2026-10-11_2007_230_14_212160",
+     "haltenummer": "212160",
+     "dienstregelingTijdstip": "2026-10-11T12:42:00",
+     "real-timeTijdstip": "2026-10-11T12:44:05",
+     "predictionStatussen": [
+      "REALTIME"
+     ],
+     "links": [
+      {
+       "rel": "halte",
+       "url": "https://api.delijn.be/DLKernOpenData/api/v1/haltes/2/212160"
+      },
+      {
+       "rel": "lijnrichting",
+       "url": "https://api.delijn.be/DLKernOpenData/api/v1/lijnen/2/7/lijnrichtingen/TERUG"
+      }
+     ]
+    },
+    {
+     "doorkomstId": "2026-10-11_2007_230_15_200161",
+     "haltenummer": "200161",
+     "dienstregelingTijdstip": "2026-10-11T12:43:00",
+     "real-timeTijdstip": "2026-10-11T12:45:05",
+     "predictionStatussen": [
+      "REALTIME"
+     ],
+     "links": [
+      {
+       "rel": "halte",
+       "url": "https://api.delijn.be/DLKernOpenData/api/v1/haltes/2/200161"
+      },
+      {
+       "rel": "lijnrichting",
+       "url": "https://api.delijn.be/DLKernOpenData/api/v1/lijnen/2/7/lijnrichtingen/TERUG"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "ritnummer": "238",
+   "bestemming": "Sint-Denijs-Westrem Flanders Expo",
+   "plaatsBestemming": "Sint-Denijs-Westrem Flanders Expo",
+   "vias": [],
+   "bestemmingKort": "Flanders Expo",
+   "doorkomsten": [
+    {
+     "doorkomstId": "2026-10-11_2007_238_8_200073",
+     "haltenummer": "200073",
+     "dienstregelingTijdstip": "2026-10-11T12:43:00",
+     "real-timeTijdstip": "2026-10-11T12:43:47",
+     "predictionStatussen": [
+      "REALTIME"
+     ],
+     "links": [
+      {
+       "rel": "halte",
+       "url": "https://api.delijn.be/DLKernOpenData/api/v1/haltes/2/200073"
+      },
+      {
+       "rel": "lijnrichting",
+       "url": "https://api.delijn.be/DLKernOpenData/api/v1/lijnen/2/7/lijnrichtingen/TERUG"
+      }
+     ]
+    },
+    {
+     "doorkomstId": "2026-10-11_2007_238_10_200075",
+     "haltenummer": "200075",
+     "dienstregelingTijdstip": "2026-10-11T12:46:00",
+     "real-timeTijdstip": "2026-10-11T12:47:25",
+     "predictionStatussen": [
+      "REALTIME"
+     ],
+     "links": [
+      {
+       "rel": "halte",
+       "url": "https://api.delijn.be/DLKernOpenData/api/v1/haltes/2/200075"
+      },
+      {
+       "rel": "lijnrichting",
+       "url": "https://api.delijn.be/DLKernOpenData/api/v1/lijnen/2/7/lijnrichtingen/TERUG"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "links": [
+  {
+   "rel": "self",
+   "url": "https://api.delijn.be/DLKernOpenData/api/v1/lijnen/2/7/lijnrichtingen/TERUG/real-time"
+  }
+ ],
+ "doorkomstNotas": [],
+ "ritNotas": [],
+ "omleidingen": []
+}

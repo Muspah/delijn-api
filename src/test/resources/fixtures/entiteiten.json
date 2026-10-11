@@ -1,0 +1,40 @@
+{
+ "entiteiten": [
+  {
+   "entiteitnummer": "1",
+   "entiteitcode": "A",
+   "omschrijving": "Antwerpen",
+   "links": [
+    {
+     "rel": "detail",
+     "url": "https://api.delijn.be/DLKernOpenData/api/v1/entiteiten/1"
+    },
+    {
+     "rel": "haltes",
+     "url": "https://api.delijn.be/DLKernOpenData/api/v1/entiteiten/1/haltes"
+    }
+   ]
+  },
+  {
+   "entiteitnummer": "2",
+   "entiteitcode": "O",
+   "omschrijving": "Oost-Vlaanderen",
+   "links": [
+    {
+     "rel": "detail",
+     "url": "https://api.delijn.be/DLKernOpenData/api/v1/entiteiten/2"
+    },
+    {
+     "rel": "haltes",
+     "url": "https://api.delijn.be/DLKernOpenData/api/v1/entiteiten/2/haltes"
+    }
+   ]
+  }
+ ],
+ "links": [
+  {
+   "rel": "self",
+   "url": "https://api.delijn.be/DLKernOpenData/api/v1/entiteiten"
+  }
+ ]
+}

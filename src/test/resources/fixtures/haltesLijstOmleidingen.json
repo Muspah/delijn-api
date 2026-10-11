@@ -1,0 +1,9 @@
+{
+ "halteOmleidingen": [],
+ "links": [
+  {
+   "rel": "self",
+   "url": "https://api.delijn.be/DLKernOpenData/api/v1/haltes/lijst/2_204911_2_205914/omleidingen"
+  }
+ ]
+}

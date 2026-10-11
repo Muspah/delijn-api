@@ -1,0 +1,38 @@
+{
+ "gemeenten": [
+  {
+   "gemeentenummer": 4612,
+   "omschrijving": "Gent",
+   "links": [
+    {
+     "rel": "detail",
+     "url": "https://api.delijn.be/DLKernOpenData/api/v1/gemeenten/4612"
+    },
+    {
+     "rel": "haltes",
+     "url": "https://api.delijn.be/DLKernOpenData/api/v1/gemeenten/4612/haltes"
+    }
+   ]
+  },
+  {
+   "gemeentenummer": 4619,
+   "omschrijving": "Gent",
+   "links": [
+    {
+     "rel": "detail",
+     "url": "https://api.delijn.be/DLKernOpenData/api/v1/gemeenten/4619"
+    },
+    {
+     "rel": "haltes",
+     "url": "https://api.delijn.be/DLKernOpenData/api/v1/gemeenten/4619/haltes"
+    }
+   ]
+  }
+ ],
+ "links": [
+  {
+   "rel": "self",
+   "url": "https://api.delijn.be/DLKernOpenData/api/v1/lijnen/2/7/gemeenten"
+  }
+ ]
+}

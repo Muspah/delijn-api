@@ -1,0 +1,47 @@
+{
+ "lijnen": [
+  {
+   "entiteitnummer": "2",
+   "lijnnummer": "968",
+   "lijnnummerPubliek": "Flex",
+   "omschrijving": "Regio Vlaamse Ardennen",
+   "vervoerRegioCode": "VA",
+   "publiek": true,
+   "vervoertype": "BUS",
+   "bedieningtype": "FLEX",
+   "vervoerslaag": "Vervoer op Maat",
+   "lijnGeldigVan": "2026-09-01",
+   "lijnGeldigTot": "2026-11-08",
+   "links": [
+    {
+     "rel": "detail",
+     "url": "https://api.delijn.be/DLKernOpenData/api/v1/lijnen/2/968"
+    }
+   ]
+  },
+  {
+   "entiteitnummer": "2",
+   "lijnnummer": "570",
+   "lijnnummerPubliek": "F78",
+   "omschrijving": "Lokeren - Lochristi - Gent - Sint-Denijs-Westrem - Deinze",
+   "vervoerRegioCode": "GE",
+   "publiek": true,
+   "vervoertype": "BUS",
+   "bedieningtype": "NORMAAL",
+   "lijnGeldigVan": "2025-12-31",
+   "lijnGeldigTot": "2026-12-30",
+   "links": [
+    {
+     "rel": "detail",
+     "url": "https://api.delijn.be/DLKernOpenData/api/v1/lijnen/2/570"
+    }
+   ]
+  }
+ ],
+ "links": [
+  {
+   "rel": "self",
+   "url": "https://api.delijn.be/DLKernOpenData/api/v1/entiteiten/2/lijnen"
+  }
+ ]
+}

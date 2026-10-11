@@ -1,0 +1,16 @@
+{
+ "code": "TU",
+ "omschrijving": "Turkoois",
+ "rgb": {
+  "rood": 0,
+  "groen": 153,
+  "blauw": 170
+ },
+ "hex": "0099AA",
+ "links": [
+  {
+   "rel": "self",
+   "url": "https://api.delijn.be/DLKernOpenData/api/v1/kleuren/TU"
+  }
+ ]
+}

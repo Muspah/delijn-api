@@ -1,0 +1,72 @@
+{
+ "halteDoorkomsten": [
+  {
+   "haltenummer": "204911",
+   "doorkomsten": [
+    {
+     "doorkomstId": "2026-10-11_2004_234_16_204911",
+     "entiteitnummer": "2",
+     "lijnnummer": 4,
+     "richting": "TERUG",
+     "ritnummer": "234",
+     "bestemming": "Sint-Denijs-Westrem Flanders Expo",
+     "plaatsBestemming": "Sint-Denijs-Westrem Flanders Expo",
+     "vias": [],
+     "bestemmingKort": "Flanders Expo",
+     "dienstregelingTijdstip": "2026-10-11T12:45:00",
+     "real-timeTijdstip": "2026-10-11T12:45:00",
+     "vrtnum": "6351",
+     "predictionStatussen": [
+      "REALTIME"
+     ],
+     "links": [
+      {
+       "rel": "halte",
+       "url": "https://api.delijn.be/DLKernOpenData/api/v1/haltes/2/204911"
+      },
+      {
+       "rel": "lijnrichting",
+       "url": "https://api.delijn.be/DLKernOpenData/api/v1/lijnen/2/4/lijnrichtingen/TERUG"
+      }
+     ]
+    },
+    {
+     "doorkomstId": "2026-10-11_2007_238_12_204911",
+     "entiteitnummer": "2",
+     "lijnnummer": 7,
+     "richting": "TERUG",
+     "ritnummer": "238",
+     "bestemming": "Sint-Denijs-Westrem Flanders Expo",
+     "plaatsBestemming": "Sint-Denijs-Westrem Flanders Expo",
+     "vias": [],
+     "bestemmingKort": "Flanders Expo",
+     "dienstregelingTijdstip": "2026-10-11T12:50:00",
+     "real-timeTijdstip": "2026-10-11T12:50:25",
+     "vrtnum": "6376",
+     "predictionStatussen": [
+      "REALTIME"
+     ],
+     "links": [
+      {
+       "rel": "halte",
+       "url": "https://api.delijn.be/DLKernOpenData/api/v1/haltes/2/204911"
+      },
+      {
+       "rel": "lijnrichting",
+       "url": "https://api.delijn.be/DLKernOpenData/api/v1/lijnen/2/7/lijnrichtingen/TERUG"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "links": [
+  {
+   "rel": "self",
+   "url": "https://api.delijn.be/DLKernOpenData/api/v1/haltes/2/204911/real-time?maxAantalDoorkomsten=5"
+  }
+ ],
+ "doorkomstNotas": [],
+ "ritNotas": [],
+ "omleidingen": []
+}

@@ -1,0 +1,42 @@
+{
+ "kleuren": [
+  {
+   "code": "TU",
+   "omschrijving": "Turkoois",
+   "rgb": {
+    "rood": 0,
+    "groen": 153,
+    "blauw": 170
+   },
+   "hex": "0099AA",
+   "links": [
+    {
+     "rel": "detail",
+     "url": "https://api.delijn.be/DLKernOpenData/api/v1/kleuren/TU"
+    }
+   ]
+  },
+  {
+   "code": "RZ",
+   "omschrijving": "Roze",
+   "rgb": {
+    "rood": 255,
+    "groen": 136,
+    "blauw": 170
+   },
+   "hex": "FF88AA",
+   "links": [
+    {
+     "rel": "detail",
+     "url": "https://api.delijn.be/DLKernOpenData/api/v1/kleuren/RZ"
+    }
+   ]
+  }
+ ],
+ "links": [
+  {
+   "rel": "self",
+   "url": "https://api.delijn.be/DLKernOpenData/api/v1/kleuren"
+  }
+ ]
+}

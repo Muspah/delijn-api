@@ -1,0 +1,90 @@
+{
+ "haltes": [
+  {
+   "entiteitnummer": "2",
+   "haltenummer": "204911",
+   "omschrijving": "Sint-Pietersstation perron 1",
+   "omschrijvingLang": "Gent Sint-Pietersstation perron 1",
+   "gemeentenummer": 4612,
+   "omschrijvingGemeente": "Gent",
+   "geoCoordinaat": {
+    "latitude": 51.03707,
+    "longitude": 3.70878
+   },
+   "halteToegankelijkheden": [
+    "MOTORISCHE_BEPERKING",
+    "VISUELE_BEPERKING"
+   ],
+   "hoofdHalte": null,
+   "taal": "NEDERLANDS",
+   "classificatie": "REGULIER",
+   "bedieningsTypes": [
+    "TRAM"
+   ],
+   "plaats": {
+    "plaatsNaam": "Gent Sint-Pietersstation",
+    "verkortePlaatsNaam": "Sint-Pietersstation",
+    "geoCoordinaat": {
+     "latitude": 51.036621,
+     "longitude": 3.709449
+    }
+   },
+   "links": [
+    {
+     "rel": "lijnrichtingen",
+     "url": "https://api.delijn.be/DLKernOpenData/api/v1/haltes/2/204911/lijnrichtingen"
+    },
+    {
+     "rel": "real-time",
+     "url": "https://api.delijn.be/DLKernOpenData/api/v1/haltes/2/204911/real-time"
+    }
+   ]
+  },
+  {
+   "entiteitnummer": "2",
+   "haltenummer": "205914",
+   "omschrijving": "Sint-Pietersstation perron 14",
+   "omschrijvingLang": "Gent Sint-Pietersstation perron 14",
+   "gemeentenummer": 4612,
+   "omschrijvingGemeente": "Gent",
+   "geoCoordinaat": {
+    "latitude": 51.0365,
+    "longitude": 3.7094
+   },
+   "halteToegankelijkheden": [
+    "MOTORISCHE_BEPERKING",
+    "VISUELE_BEPERKING"
+   ],
+   "hoofdHalte": null,
+   "taal": "NEDERLANDS",
+   "classificatie": "REGULIER",
+   "bedieningsTypes": [
+    "BUS"
+   ],
+   "plaats": {
+    "plaatsNaam": "Gent Sint-Pietersstation",
+    "verkortePlaatsNaam": "Sint-Pietersstation",
+    "geoCoordinaat": {
+     "latitude": 51.036621,
+     "longitude": 3.709449
+    }
+   },
+   "links": [
+    {
+     "rel": "lijnrichtingen",
+     "url": "https://api.delijn.be/DLKernOpenData/api/v1/haltes/2/205914/lijnrichtingen"
+    },
+    {
+     "rel": "real-time",
+     "url": "https://api.delijn.be/DLKernOpenData/api/v1/haltes/2/205914/real-time"
+    }
+   ]
+  }
+ ],
+ "links": [
+  {
+   "rel": "self",
+   "url": "https://api.delijn.be/DLKernOpenData/api/v1/haltes/lijst/2_204911_2_205914"
+  }
+ ]
+}

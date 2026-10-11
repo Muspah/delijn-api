@@ -1,0 +1,38 @@
+{
+ "gemeenten": [
+  {
+   "gemeentenummer": 966,
+   "omschrijving": "KNOKKE-HEIST",
+   "links": [
+    {
+     "rel": "detail",
+     "url": "https://api.delijn.be/DLKernOpenData/api/v1/gemeenten/966"
+    },
+    {
+     "rel": "haltes",
+     "url": "https://api.delijn.be/DLKernOpenData/api/v1/gemeenten/966/haltes"
+    }
+   ]
+  },
+  {
+   "gemeentenummer": 983,
+   "omschrijving": "BRUGGE",
+   "links": [
+    {
+     "rel": "detail",
+     "url": "https://api.delijn.be/DLKernOpenData/api/v1/gemeenten/983"
+    },
+    {
+     "rel": "haltes",
+     "url": "https://api.delijn.be/DLKernOpenData/api/v1/gemeenten/983/haltes"
+    }
+   ]
+  }
+ ],
+ "links": [
+  {
+   "rel": "self",
+   "url": "https://api.delijn.be/DLKernOpenData/api/v1/gemeenten"
+  }
+ ]
+}
