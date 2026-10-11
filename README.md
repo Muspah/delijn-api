@@ -107,7 +107,7 @@ The OpenAPI specs this client was built against are kept in [`spec/`](spec).
 ## Building and testing
 
 ```bash
-mvn verify
+./mvnw verify
 ```
 
 Unit tests run every endpoint against a local mock server that serves trimmed real responses from
@@ -115,7 +115,7 @@ Unit tests run every endpoint against a local mock server that serves trimmed re
 are provided:
 
 ```bash
-DELIJN_CORE_API_KEY=... DELIJN_SEARCH_API_KEY=... mvn test
+DELIJN_CORE_API_KEY=... DELIJN_SEARCH_API_KEY=... ./mvnw test
 ```
 
 ### Releasing to Maven Central
@@ -142,7 +142,7 @@ Required repository secrets:
 | `DELIJN_CORE_API_KEY` / `DELIJN_SEARCH_API_KEY` | Optional, enables the live tests |
 
 To release from your own machine instead, put the token in a `central` server entry in `~/.m2/settings.xml` and run
-`mvn -P release deploy`.
+`./mvnw -P release deploy`.
 
 ## License
 

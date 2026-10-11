@@ -16,7 +16,7 @@ jobs:
           java-version: ${{ matrix.java }}
           cache: maven
       # The live tests run only when the repository secrets are set (they are not exposed to fork PRs).
-      - run: mvn -B verify
+      - run: ./mvnw -B verify
         env:
           DELIJN_CORE_API_KEY: ${{ secrets.DELIJN_CORE_API_KEY }}
           DELIJN_SEARCH_API_KEY: ${{ secrets.DELIJN_SEARCH_API_KEY }}
