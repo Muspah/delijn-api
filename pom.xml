@@ -161,6 +161,9 @@
                         <extensions>true</extensions>
                         <configuration>
                             <publishingServerId>central</publishingServerId>
+                            <!-- Upload and validate only; publish manually on central.sonatype.com. -->
+                            <autoPublish>false</autoPublish>
+                            <waitUntil>validated</waitUntil>
                         </configuration>
                     </plugin>
                 </plugins>

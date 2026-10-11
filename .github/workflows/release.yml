@@ -1,0 +1,37 @@
+name: Release
+
+# Push a tag like v0.1.0 to build, sign and upload that version to the Maven Central Portal.
+# The upload is validated but not published: review it on central.sonatype.com and click "Publish".
+on:
+  push:
+    tags: ['v*']
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 21
+          cache: maven
+          # Writes a settings.xml with the "central" server and imports the signing key.
+          server-id: central
+          server-username: CENTRAL_TOKEN_USERNAME
+          server-password: CENTRAL_TOKEN_PASSWORD
+          gpg-private-key: ${{ secrets.GPG_PRIVATE_KEY }}
+          gpg-passphrase: MAVEN_GPG_PASSPHRASE
+
+      - name: Set version from tag
+        run: mvn -B versions:set -DnewVersion="${GITHUB_REF_NAME#v}" -DgenerateBackupPoms=false
+
+      - name: Build, sign and upload
+        run: mvn -B -P release deploy
+        env:
+          CENTRAL_TOKEN_USERNAME: ${{ secrets.CENTRAL_TOKEN_USERNAME }}
+          CENTRAL_TOKEN_PASSWORD: ${{ secrets.CENTRAL_TOKEN_PASSWORD }}
+          MAVEN_GPG_PASSPHRASE: ${{ secrets.GPG_PASSPHRASE }}
+          DELIJN_CORE_API_KEY: ${{ secrets.DELIJN_CORE_API_KEY }}
+          DELIJN_SEARCH_API_KEY: ${{ secrets.DELIJN_SEARCH_API_KEY }}

@@ -120,12 +120,29 @@ DELIJN_CORE_API_KEY=... DELIJN_SEARCH_API_KEY=... mvn test
 
 ### Releasing to Maven Central
 
-The `release` profile adds sources and KDoc (Dokka) javadoc jars, GPG signing and the Central Portal publishing
-plugin. You need a `central` server entry with a Central Portal token in `~/.m2/settings.xml` and a GPG key:
+Releases are built, signed and uploaded by GitHub Actions ([`release.yml`](.github/workflows/release.yml)) when a
+version tag is pushed:
 
 ```bash
-mvn -P release deploy
+git tag v0.1.0
+git push origin v0.1.0
 ```
+
+The version comes from the tag; `pom.xml` stays on `-SNAPSHOT`. The workflow uploads to the Central Portal and waits
+for validation, but does **not** publish. Review the deployment on
+[central.sonatype.com](https://central.sonatype.com/publishing/deployments) and click *Publish*.
+
+Required repository secrets:
+
+| Secret | Value |
+|---|---|
+| `CENTRAL_TOKEN_USERNAME` / `CENTRAL_TOKEN_PASSWORD` | Central Portal user token |
+| `GPG_PRIVATE_KEY` | ASCII-armored signing key (`gpg --export-secret-keys --armor <FPR>`) |
+| `GPG_PASSPHRASE` | Passphrase of that key |
+| `DELIJN_CORE_API_KEY` / `DELIJN_SEARCH_API_KEY` | Optional, enables the live tests |
+
+To release from your own machine instead, put the token in a `central` server entry in `~/.m2/settings.xml` and run
+`mvn -P release deploy`.
 
 ## License
 
